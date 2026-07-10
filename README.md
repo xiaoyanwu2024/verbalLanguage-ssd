@@ -1,7 +1,6 @@
-# verbalLanguage-ssd
 # Verbal Strategy Analysis — Data & Code
 
-**Paper:** Wu, X. et al. (2026). Teaching others externalizes spatial structure in cognitive maps built from visual inputs. *PNAS*. [DOI: TBD]
+This repository contains data and analysis code associated with a manuscript currently under review. The repository is temporarily public for peer review purposes. Full public release will follow upon acceptance.
 
 **Contact:** Xiaoyan Wu — xiaoyan.psych@gmail.com
 
@@ -50,7 +49,7 @@ Out of 214 reports, 18 cases (highlighted in yellow) showed disagreement between
 | `text` | Transcribed verbal report (multiple languages; keywords highlighted in red) |
 | `rater1` | Human rater 1 classification: `2D`, `1D`, or `none` |
 | `rater2` | Human rater 2 classification: `2D`, `1D`, or `none` |
-| `strategy` | Final consensus classification used in all analyses (see above) |
+| `strategy` | Final consensus classification used in all analyses |
 | `UE` | O-LIFE Unusual Experiences subscale score |
 | `CD` | O-LIFE Cognitive Disorganization subscale score |
 | `IA` | O-LIFE Introvertive Anhedonia subscale score |
@@ -68,12 +67,6 @@ All scripts read `dataset.xlsx` from the `data/` folder. Update the `dataPath` v
 
 ---
 
-## Citation
-
-If you use this data or code, please cite:
-
-> Wu, X. et al. (2026). Teaching others externalizes spatial structure in cognitive maps built from visual inputs. *Proceedings of the National Academy of Sciences*. [DOI: TBD]
-
-O-LIFE questionnaire:
+## O-LIFE Reference
 
 > Mason, O., Claridge, G., & Jackson, M. (1995). New scales for the assessment of schizotypy. *Personality and Individual Differences, 18*(1), 7–13.
